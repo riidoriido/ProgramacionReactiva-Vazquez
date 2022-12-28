@@ -10,4 +10,11 @@ body {
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
+  background: linear-gradient(
+    0deg,
+    rgba(251, 186, 113, 1) 0%,
+    rgba(154, 111, 81, 1) 20%,
+    rgba(79, 32, 101, 1) 45%,
+    rgba(43, 24, 55, 1) 69%
+  );
 }
