@@ -1,13 +1,48 @@
-<main>
-  <nav class="navbar navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Desafio #4</a>
-    <span class="navbar-link">
-      <a href="https://github.com/riidoriido/ProgramacionReactiva-Vazquez"
-        ><img src="../../../assets/github-svgrepo-com.svg"
-      /></a>
-    </span>
-    <span class="navbar-text"> Programacion Reactiva </span>
-  </nav>
+<nav class="navbar navbar-dark bg-dark">
+  <a class="navbar-brand" href="/home">Desafio #4</a>
 
-  <ng-content></ng-content>
-</main>
+  <span class="navbar-text"> Programacion Reactiva </span>
+</nav>
+
+<mat-grid-list cols="3">
+  <mat-grid-tile>
+    <mat-card class="p-3 shadow-5">
+      <mat-card-title>Buscar un Digimon por nombre</mat-card-title>
+      <mat-card-subtitle
+        >Escribí el nombre del Digimon que querés ver!</mat-card-subtitle
+      >
+      <mat-card-actions>
+        <button mat-raised-button color="accent" class="shadow-3">
+          Vamos!
+        </button></mat-card-actions
+      >
+    </mat-card>
+  </mat-grid-tile>
+  <mat-grid-tile>
+    <img src="../../../assets/digilogo.png" />
+  </mat-grid-tile>
+  <mat-grid-tile>
+    <mat-card class="p-3 shadow-5">
+      <mat-card-title>Listar Digimon por nivel</mat-card-title>
+      <mat-card-subtitle
+        >Ver una lista de los Digimon del nivel que elijas.</mat-card-subtitle
+      >
+      <mat-card-actions>
+        <button mat-raised-button color="warn" class="shadow-3">
+          Vamos!
+        </button></mat-card-actions
+      >
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>
+<mat-divider></mat-divider>
+<footer class="d-flex">
+  <span class="navbar-link center">
+    <a href="https://github.com/riidoriido/ProgramacionReactiva-Vazquez"
+      ><img
+        class="shadow-5"
+        src="../../../assets/github-svgrepo-com.svg"
+        id="gitlogo"
+    /></a>
+  </span>
+</footer>

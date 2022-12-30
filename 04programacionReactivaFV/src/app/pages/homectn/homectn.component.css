@@ -13,6 +13,18 @@ nav {
   padding-right: 2%;
 }
 
-img {
+#gitlogo {
   filter: invert();
+  justify-items: center;
+  height: 40px;
+  width: 40px;
+}
+
+footer {
+  padding: 3%;
+  justify-content: center;
+}
+
+img {
+  width: 75%;
 }
