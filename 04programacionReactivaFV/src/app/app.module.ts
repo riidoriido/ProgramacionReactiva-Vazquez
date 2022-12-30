@@ -4,23 +4,19 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { HomectnComponent } from './pages/homectn/homectn.component';
-import { MonstersctnComponent } from './shared/components/monstersctn/monstersctn.component';
-import { ListmonsterctnComponent } from './shared/components/listmonsterctn/listmonsterctn.component';
 import { MaterialModule } from './modules/material.module';
+import { HttpClientModule } from '@angular/common/http';
+import { PagesModule } from './pages/pages.module';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HomectnComponent,
-    MonstersctnComponent,
-    ListmonsterctnComponent,
-  ],
+  declarations: [AppComponent],
   imports: [
     MaterialModule,
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    HttpClientModule,
+    PagesModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
